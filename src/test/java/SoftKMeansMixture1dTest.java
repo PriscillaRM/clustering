@@ -14,7 +14,7 @@ public class SoftKMeansMixture1dTest {
     @Test
     public void dataBaseClementineSimpleTest(){
 
-        String rscPath = "../forge_clementine_per_hour.csv";
+        String rscPath = "../test.csv";
         int lineToReadSample = 26;
 
         ExtractSample extractSample = new ExtractSample.Builder(rscPath, lineToReadSample).sampleSize(240).build();
