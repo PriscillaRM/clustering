@@ -25,7 +25,7 @@ public class DataValidationHistogram extends ApplicationFrame {
     public DataValidationHistogram(final String title){
         super(title);
 
-        String rscPath = "../forge_clementine_per_hour.csv";
+        String rscPath = "../test.csv";
         int lineToReadSample = 26;
         XYSeries series  = new XYSeries("realDatas");
         XYSeries series2 = new XYSeries("gaussianApproximation");
